@@ -1,12 +1,12 @@
 package frogger;
 
 import java.awt.event.KeyEvent;
-import java.awt.Color;
-import java.util.ArrayList;
+
 
 public class Frogger {
 	// use this main method verbatim
-    public static void main(String[] args) {
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) {
         // setup the sketch
         setup();
         // drawing and interaction loop
